@@ -49,6 +49,27 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    
+    // Camera dependencies
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.video)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.androidx.camera.viewfinder)
+    implementation(libs.androidx.camera.extensions)
+    
+    // Barcode scanning libraries
+    implementation(libs.mlkit.barcode.scanning)
+    implementation(libs.zxing.core)
+    implementation(libs.zxing.android.embedded)
+    
+    // ViewModel Compose
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    
+    // Permissions
+    implementation(libs.permissions.accompanist)
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
